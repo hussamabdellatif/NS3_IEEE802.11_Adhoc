@@ -95,7 +95,7 @@ int main ()
 
 	  Simulator::Stop (Seconds (10.0));
 	 
-	 phy.EnablePcap("lab2_task1",staDevices.Get(2), true);
+	 phy.EnablePcap("adhoc",staDevices.Get(2), true);
 	 
 	 Simulator::Run ();
 	Simulator::Destroy ();
